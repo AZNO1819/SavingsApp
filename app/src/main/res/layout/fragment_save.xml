@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bakgrund9"
+    tools:context=".SaveFragment">
+
+    <nl.dionsegijn.konfetti.KonfettiView
+        android:id="@+id/konfettiView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="396dp"
+        android:background="#fff"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </android.support.v7.widget.RecyclerView>
+
+        <info.abdolahi.CircularMusicProgressBar xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/imgGoal"
+            android:layout_width="256dp"
+            android:layout_height="256dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            app:border_color="#F0F0F5"
+            app:border_width="6dp"
+            app:centercircle_diammterer="10"
+            app:draw_anticlockwise="false"
+            app:enable_touch="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.491"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:progress_color="@color/colorGreen"
+            app:progress_startAngle="-90" />
+
+    <TextView
+        android:id="@+id/amount2"
+        android:layout_width="16dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:fontFamily="@font/montserratregular"
+        android:text="/"
+        android:textColor="@color/colorWhite"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgGoal"
+        tools:text="/" />
+
+    <TextView
+        android:id="@+id/amount"
+        android:layout_width="130dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/montserratregular"
+        android:text="TextView"
+        android:textColor="@color/colorWhite"
+        android:textSize="30sp"
+        app:layout_constraintStart_toEndOf="@+id/amount2"
+        app:layout_constraintTop_toBottomOf="@+id/imgGoal" />
+
+        <com.daasuu.cat.CountAnimationTextView
+            android:id="@+id/amountSaved"
+            android:layout_width="wrap_content"
+            android:layout_height="54dp"
+            android:layout_marginTop="24dp"
+            android:text="TextView"
+            android:textColor="@color/colorWhite"
+            android:textSize="30sp"
+            android:fontFamily="@font/montserratregular"
+            app:layout_constraintEnd_toStartOf="@+id/amount2"
+            app:layout_constraintTop_toBottomOf="@+id/imgGoal" />
+
+</android.support.constraint.ConstraintLayout>

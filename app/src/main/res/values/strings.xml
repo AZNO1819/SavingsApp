@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Sparapp</string>
+    <string name="title_home">Hem</string>
+    <string name="title_statistics">Statistik</string>
+    <string name="title_tip">Tips</string>
+    <string name="title_newGoal">Nytt mål</string>
+    <string name="title_settings">Inställningar</string>
+    <string name="name_dialog">Vad vill du spara till?</string>
+    <string name="amount_dialog">Hur mycket vill du spara?</string>
+    <string name="date_dialog">När vill du vara klar?</string>
+    <string name="start_save_dialog">Börja spara nu</string>
+</resources>

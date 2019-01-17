@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Hem" />
+
+    <item
+        android:id="@+id/navigation_tip"
+        android:icon="@drawable/tip"
+        android:title="Tips" />
+
+    <item
+        android:id="@+id/navigation_newGoal"
+        android:icon="@drawable/new_goal"
+        android:title="Nytt mål" />
+    <item
+        android:id="@+id/navigation_statistics"
+        android:icon="@drawable/statistics"
+        android:title="Statistik" />
+    <item
+        android:id="@+id/navigation_settings"
+        android:icon="@drawable/settings"
+        android:title="Inställningar" />
+
+</menu>
