@@ -26,7 +26,7 @@ behave like.
 </ul>
 <h2>Authors</h2> 
 <img src = "https://github.com/AZNO1819/Savingsapp/blob/master/media/AZNO.jpg" width = "150px" height = "150px">
-<i> Adrian Zakir & Nicole Othman </i>
+<i> Nicole Othman & Adrian Zakir </i>
 <h2>Acknowledgments</h2>
 
 <img src = "https://github.com/AZNO1819/Savingsapp/blob/master/media/Freepik.png">
