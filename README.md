@@ -1,4 +1,4 @@
-# Savingsapp
+# SavingsApp
 
 This application was developed as a degree project at KTH. The applications design and functionality is based upon the concept of 
 gamification. Its purpose is to serve as a prototype whenever demonstrating how a gamified savings application could look, feel and 
