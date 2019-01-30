@@ -33,5 +33,7 @@ behave like.
 <p>Icons made by <a href="https://freepik.com">Freepik</a> from www.flaticon.com</p>
 <img src = "https://github.com/AZNO1819/Savingsapp/blob/master/media/pongsakornRed.png">
 <p>Icon made by <a href="https://flaticon.com/authors/pongsakornred">pongsakornRed</a> from www.flaticon.com</p>
+<img src = "https://github.com/AZNO1819/SavingsApp/blob/master/media/Chanut.png" width = "50px" height = "50px">
+<p>Icon made by <a href="https://www.flaticon.com/authors/chanut">Chanut</a> from www.flaticon.com</p>
 <img src = "https://github.com/AZNO1819/Savingsapp/blob/master/media/JeremyBishop.png">
 <p>Photo by <a href="https://jeremybishopphotography.com">Jeremy Bishop</a> from www.unsplash.com</p>
